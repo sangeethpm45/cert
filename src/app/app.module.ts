@@ -11,6 +11,7 @@ import { FrontPageComponent } from './front-page/front-page.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
     FormsModule,
     ReactiveFormsModule,
     MatIconModule,
-    MatCarouselModule
+    MatCarouselModule,
+    NgbModule
 
   ],
   providers: [],
