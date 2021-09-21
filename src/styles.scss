@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+@import './variables.css';
+html, body 
+{ height:100vh;
+    overflow: scroll;
+}
+body { margin: 0; font-family: 'Manrope', sans-serif!important;font-size: 62.5%!important; }
+.text-xxl {
+    font-size: var(--size-xlarge) !important;
+    font-family: 'Manrope',sans-serif!important;
+    font-weight: 800;
+    line-height: 51px;
+    size: 2rem;
+}
+.text-p {
+  font-weight: 700;
+  line-height: 25.6px;
+  size: 1rem;
+  color: var(--tundora);
+}
+ .text-xl {
+	size: 1.125rem !important;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: var(--tundora);
+}
+.text-sl{
+    size:0.875rem;
+    line-height: 21.78px;
+}
+

@@ -1,0 +1,52 @@
+/* variables for app */
+:root {
+
+  /* Primary color for app (used by bootstrap classes) */
+  --primary: #01A747;
+  --secondary: #0C7438;
+  --light: #F9F9F9;
+  --danger: #E70C0C;
+  --success: #0C7438;
+  --dark: #151515;
+  --info:#4A4A4A;
+  --warning: #FFDF8C;
+  
+
+  /* Other custom colors for project */
+  --border-color: #cacaca;
+  --text-color: #848484;
+  --hover-color: #01A747;
+  --custom-blue: #70D4FF;
+  --custom-orange: #FFA370;
+  --blue-haze: #C5CADD;
+  --catskill-white: #F4F6FA;
+  --zircon: #EBF1FF;
+  --viridian-green: #6C927C;
+  --alabaster: #FBFBFB;
+  --tundora: #4A4A4A;
+  --panache: #F4FAF7;
+  
+  /* Font size for app - colors */
+
+  --size-regular: 1.5rem;
+  --size-medium: 1.8rem;
+  --size-large: 2rem;
+  --size-xxlarge: 3.5rem;
+  --size-xxsmall: 1.0rem;
+  --size-xsmall: 1.2rem;
+  --size-small: 1.3rem;
+  --size-xlarge: 2.4rem;
+
+
+  /* bootstrap variables */
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* For padding , margins , border , text styles , floats etc use bootstrap classes
+Documentation of all utility class available at https://getbootstrap.com/docs/4.4/utilities/borders/ */
