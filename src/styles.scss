@@ -3,7 +3,9 @@
 @import './variables.css';
 html, body 
 { height:100vh;
-    overflow: scroll;
+width: 100vw;
+overflow-y: scroll;
+overflow-x: hidden;
 }
 body { margin: 0; font-family: 'Manrope', sans-serif!important;font-size: 62.5%!important; }
 
@@ -35,4 +37,3 @@ body { margin: 0; font-family: 'Manrope', sans-serif!important;font-size: 62.5%!
 }
 
 
-/* Importing Bootstrap SCSS file. */
